@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  list-style: none;
+}
